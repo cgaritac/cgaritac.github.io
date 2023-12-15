@@ -1,0 +1,54 @@
+/* Como crear un cuadrado centrado */
+
+/* body{
+    margin: 0;
+    padding: 0;
+}
+
+.outer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(94, 114, 211);
+}
+
+.inner{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* Como crear un triangulo */
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.shape{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 13, 13);
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #f0f;
+    border-right: 10px solid #00f
+}
+
+.shape{
+    border-bottom: 10px solid #000;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
