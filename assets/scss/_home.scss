@@ -18,9 +18,21 @@
             }
         }
 
-        h2{
-            color: $gray;
+        .field{
+            display: flex;
+            align-items: center;
             margin-bottom: 16px;
+
+            h2{
+                color: $gray;
+                margin: 0;
+                
+            }
+
+            span{
+                font-size: 21px;
+                margin-left: 2px;
+            }
         }
 
         p{
@@ -33,6 +45,7 @@
 
             ul{
                 display: flex;
+                flex-wrap: wrap;
                 list-style: none;
                 margin: 0;
                 padding: 0;
@@ -81,12 +94,49 @@
 
         img{
             border-radius: 8px;
+            max-width: 100%;
             transition: all 0.3s;
             // opacity: 0.85;
 
             &:hover{
                 filter: saturate(200%) sepia(1);
             }
+        }
+    }
+
+    .meteor-shower{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+        z-index: -1;
+
+        @for $i from 1 through 15 {
+            .meteor:nth-child(#{$i}){
+                position: absolute;
+                background-image: url('../images/meteor.png');
+                width: 60px;
+                height: 49px;
+                opacity: 0;
+                top: #{random(80)+'vh'};
+                left: #{random(80)+'vw'};
+                animation: meteor #{random(5000) + 3000 +'ms'} linear infinite;
+                animation-delay: #{random(5000) +'ms'};
+            }
+        }        
+    }
+
+    @keyframes meteor {
+        0%{
+            transform: translate(300px, -300px);
+            opacity: 1;
+        }
+
+        15%{
+            transform: translate(-300px, 300px);
+            opacity: 0;
         }
     }
 }

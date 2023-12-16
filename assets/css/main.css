@@ -36,6 +36,8 @@ main {
 }
 main > section {
   display: none;
+  padding-right: 114px;
+  padding-left: 114px;
 }
 main > section.active {
   display: block;
@@ -81,6 +83,7 @@ main > section.active {
   padding-left: 39px;
   display: flex;
   flex-direction: column;
+  z-index: 10;
 }
 #sidebar .toggle-sidebar {
   position: absolute;
@@ -213,9 +216,18 @@ main > section.active {
 #home .info h1 span {
   color: #B6B7BA;
 }
-#home .info h2 {
-  color: #B6B7BA;
+#home .info .field {
+  display: flex;
+  align-items: center;
   margin-bottom: 16px;
+}
+#home .info .field h2 {
+  color: #B6B7BA;
+  margin: 0;
+}
+#home .info .field span {
+  font-size: 21px;
+  margin-left: 2px;
 }
 #home .info p {
   max-width: 430px;
@@ -226,6 +238,7 @@ main > section.active {
 }
 #home .info .socials ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -265,17 +278,214 @@ main > section.active {
 }
 #home .image img {
   border-radius: 8px;
+  max-width: 100%;
   transition: all 0.3s;
 }
 #home .image img:hover {
   filter: saturate(200%) sepia(1);
+}
+#home .meteor-shower {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+#home .meteor-shower .meteor:nth-child(1) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 21vh;
+  left: 25vw;
+  animation: meteor 3185ms linear infinite;
+  animation-delay: 4368ms;
+}
+#home .meteor-shower .meteor:nth-child(2) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 49vh;
+  left: 51vw;
+  animation: meteor 7629ms linear infinite;
+  animation-delay: 482ms;
+}
+#home .meteor-shower .meteor:nth-child(3) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 77vh;
+  left: 19vw;
+  animation: meteor 4163ms linear infinite;
+  animation-delay: 4366ms;
+}
+#home .meteor-shower .meteor:nth-child(4) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 12vh;
+  left: 13vw;
+  animation: meteor 7766ms linear infinite;
+  animation-delay: 1335ms;
+}
+#home .meteor-shower .meteor:nth-child(5) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 64vh;
+  left: 76vw;
+  animation: meteor 4631ms linear infinite;
+  animation-delay: 1873ms;
+}
+#home .meteor-shower .meteor:nth-child(6) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 43vh;
+  left: 25vw;
+  animation: meteor 3061ms linear infinite;
+  animation-delay: 2701ms;
+}
+#home .meteor-shower .meteor:nth-child(7) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 20vh;
+  left: 29vw;
+  animation: meteor 6920ms linear infinite;
+  animation-delay: 3926ms;
+}
+#home .meteor-shower .meteor:nth-child(8) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 45vh;
+  left: 17vw;
+  animation: meteor 5859ms linear infinite;
+  animation-delay: 4424ms;
+}
+#home .meteor-shower .meteor:nth-child(9) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 31vh;
+  left: 27vw;
+  animation: meteor 4698ms linear infinite;
+  animation-delay: 1635ms;
+}
+#home .meteor-shower .meteor:nth-child(10) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 33vh;
+  left: 11vw;
+  animation: meteor 4583ms linear infinite;
+  animation-delay: 4487ms;
+}
+#home .meteor-shower .meteor:nth-child(11) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 56vh;
+  left: 44vw;
+  animation: meteor 7596ms linear infinite;
+  animation-delay: 3043ms;
+}
+#home .meteor-shower .meteor:nth-child(12) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 49vh;
+  left: 16vw;
+  animation: meteor 5482ms linear infinite;
+  animation-delay: 1384ms;
+}
+#home .meteor-shower .meteor:nth-child(13) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 11vh;
+  left: 46vw;
+  animation: meteor 5701ms linear infinite;
+  animation-delay: 3824ms;
+}
+#home .meteor-shower .meteor:nth-child(14) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 13vh;
+  left: 24vw;
+  animation: meteor 6776ms linear infinite;
+  animation-delay: 2477ms;
+}
+#home .meteor-shower .meteor:nth-child(15) {
+  position: absolute;
+  background-image: url("../images/meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 11vh;
+  left: 69vw;
+  animation: meteor 5185ms linear infinite;
+  animation-delay: 1101ms;
+}
+@keyframes meteor {
+  0% {
+    transform: translate(300px, -300px);
+    opacity: 1;
+  }
+  15% {
+    transform: translate(-300px, 300px);
+    opacity: 0;
+  }
 }
 
 #contact {
   background: #000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+  main > section {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  #home .image {
+    justify-content: flex-start;
+    height: unset;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
   #sidebar {
     background: black;
     padding-right: 60px;
@@ -303,8 +513,26 @@ main > section.active {
   #sidebar nav ul li > span {
     display: none;
   }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 20px;
+  }
   main {
     padding-left: 0;
     padding-top: 50px;
+  }
+  #home {
+    background-image: unset;
+  }
+  #home .info {
+    padding-top: 80px;
+  }
+  #home .info .socials {
+    margin-top: 70px;
+  }
+  #home .info .socials ul {
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=main.css.map */
