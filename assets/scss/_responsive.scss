@@ -1,4 +1,10 @@
 @media (max-width: 991px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 991px){
     main{
         >section{
             padding-right: 32px;
