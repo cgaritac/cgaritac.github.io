@@ -3,6 +3,7 @@
         .image{
             img{
                 border-radius: 8px;
+                max-width: 100%;
                 transition: all 0.3s;
 
                 &:hover{
@@ -42,11 +43,12 @@
             }
 
             .buttons{
-                display: flex;
+                display: inline-flex;
+                flex-wrap: wrap;
 
-                // a:first-child{
-                //     margin-right: 24px;
-                // }
+                a:first-child{
+                    margin-right: 24px;
+                }
             }
         }
     }
