@@ -52,4 +52,55 @@
             }
         }
     }
+
+    header.custom{
+        position: relative;
+        text-align: center;
+
+        &::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: $secondary;
+            left: 0;
+            top: 50%;
+            transition: translateY(-50%);
+            z-index: -1;
+        }
+
+        h2{
+            display: inline-block;
+            padding: 0 24px;
+            background: $dark_bg;
+        }
+    }
+
+    .rate{
+        display: flex;
+
+        span{
+            display: flex;
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .languages-skills{
+        margin-top: 126px;
+
+        .languages-key-skills{
+            .languages{
+
+            }
+
+            .key-skills{
+
+            }
+        }
+
+        .web-skills{
+
+        }
+    }
 }
