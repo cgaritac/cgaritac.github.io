@@ -5,7 +5,18 @@
   box-sizing: border-box;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
@@ -17,6 +28,12 @@ h1 {
 h2 {
   font-size: 24px;
   font-weight: 700;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 p {
@@ -315,10 +332,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 57vh;
-  left: 37vw;
-  animation: meteor 7670ms linear infinite;
-  animation-delay: 1327ms;
+  top: 64vh;
+  left: 34vw;
+  animation: meteor 5012ms linear infinite;
+  animation-delay: 675ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -326,10 +343,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 38vh;
-  left: 58vw;
-  animation: meteor 3759ms linear infinite;
-  animation-delay: 2201ms;
+  top: 4vh;
+  left: 65vw;
+  animation: meteor 4340ms linear infinite;
+  animation-delay: 4636ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -337,10 +354,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 23vh;
-  left: 38vw;
-  animation: meteor 5544ms linear infinite;
-  animation-delay: 4551ms;
+  top: 8vh;
+  left: 28vw;
+  animation: meteor 4374ms linear infinite;
+  animation-delay: 3659ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -348,10 +365,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 27vh;
-  left: 8vw;
-  animation: meteor 3226ms linear infinite;
-  animation-delay: 908ms;
+  top: 56vh;
+  left: 66vw;
+  animation: meteor 3136ms linear infinite;
+  animation-delay: 1333ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -359,10 +376,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 41vh;
-  left: 50vw;
-  animation: meteor 5579ms linear infinite;
-  animation-delay: 493ms;
+  top: 45vh;
+  left: 33vw;
+  animation: meteor 6152ms linear infinite;
+  animation-delay: 398ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -370,10 +387,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 19vh;
-  left: 8vw;
-  animation: meteor 5433ms linear infinite;
-  animation-delay: 4223ms;
+  top: 6vh;
+  left: 36vw;
+  animation: meteor 6889ms linear infinite;
+  animation-delay: 4497ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -381,10 +398,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 63vh;
-  left: 26vw;
-  animation: meteor 5904ms linear infinite;
-  animation-delay: 3493ms;
+  top: 20vh;
+  left: 72vw;
+  animation: meteor 6229ms linear infinite;
+  animation-delay: 4951ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -392,10 +409,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 36vh;
-  left: 55vw;
-  animation: meteor 7677ms linear infinite;
-  animation-delay: 1661ms;
+  top: 54vh;
+  left: 17vw;
+  animation: meteor 4727ms linear infinite;
+  animation-delay: 847ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -403,10 +420,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 50vh;
-  left: 6vw;
-  animation: meteor 3940ms linear infinite;
-  animation-delay: 4573ms;
+  top: 57vh;
+  left: 58vw;
+  animation: meteor 5411ms linear infinite;
+  animation-delay: 3612ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -414,10 +431,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 42vh;
-  left: 14vw;
-  animation: meteor 3786ms linear infinite;
-  animation-delay: 4694ms;
+  top: 28vh;
+  left: 45vw;
+  animation: meteor 6657ms linear infinite;
+  animation-delay: 756ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -425,10 +442,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 20vh;
-  left: 27vw;
-  animation: meteor 4502ms linear infinite;
-  animation-delay: 981ms;
+  top: 79vh;
+  left: 30vw;
+  animation: meteor 5198ms linear infinite;
+  animation-delay: 1898ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -436,10 +453,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 27vh;
-  left: 39vw;
-  animation: meteor 3905ms linear infinite;
-  animation-delay: 2980ms;
+  top: 77vh;
+  left: 57vw;
+  animation: meteor 4394ms linear infinite;
+  animation-delay: 3390ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -447,10 +464,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 8vh;
-  left: 21vw;
-  animation: meteor 3685ms linear infinite;
-  animation-delay: 125ms;
+  top: 59vh;
+  left: 77vw;
+  animation: meteor 3107ms linear infinite;
+  animation-delay: 4270ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -458,10 +475,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 76vh;
-  left: 21vw;
-  animation: meteor 5385ms linear infinite;
-  animation-delay: 4132ms;
+  top: 51vh;
+  left: 28vw;
+  animation: meteor 6113ms linear infinite;
+  animation-delay: 3009ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -469,10 +486,10 @@ main > section header.has-bg img {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 51vh;
-  left: 35vw;
-  animation: meteor 5226ms linear infinite;
-  animation-delay: 3892ms;
+  top: 64vh;
+  left: 22vw;
+  animation: meteor 5434ms linear infinite;
+  animation-delay: 341ms;
 }
 @keyframes meteor {
   0% {
@@ -535,7 +552,7 @@ main > section header.has-bg img {
   background: #1E1E20;
   left: 0;
   top: 50%;
-  transition: translateY(-50%);
+  transform: translateY(-50%);
   z-index: -1;
 }
 #about_me header.custom h2 {
@@ -547,13 +564,119 @@ main > section header.has-bg img {
   display: flex;
 }
 #about_me .rate span {
+  position: relative;
   display: flex;
   width: 15px;
   height: 15px;
 }
+#about_me .rate span:not(:last-child) {
+  margin-right: 12px;
+}
+#about_me .rate span:before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background: #658DF2;
+  transform: rotate(40deg);
+}
+#about_me .rate span:after {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background: #658DF2;
+  transform: rotate(50deg);
+}
 #about_me .languages-skills {
   margin-top: 126px;
 }
+#about_me .languages-skills .languages-key-skills {
+  padding-right: 160px;
+}
+#about_me .languages-skills .languages-key-skills .languages .items .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 38px;
+  margin-bottom: 43px;
+}
+#about_me .languages-skills .languages-key-skills .languages .items .item:not(:last-child) {
+  margin-bottom: 16px;
+}
+#about_me .languages-skills .languages-key-skills .languages .items .item .info h3 {
+  margin-bottom: 4px;
+}
+#about_me .languages-skills .languages-key-skills .languages .items .item .info .level {
+  color: #B6B7BA;
+}
+#about_me .languages-skills .languages-key-skills .key-skills .items {
+  margin-top: 53px;
+}
+#about_me .languages-skills .languages-key-skills .key-skills .items .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#about_me .languages-skills .languages-key-skills .key-skills .items .item:not(:last-child) {
+  margin-bottom: 32px;
+}
+#about_me .languages-skills .web-skills .items {
+  margin-top: 42px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+#about_me .languages-skills .web-skills .items .item {
+  position: relative;
+  text-align: center;
+  padding: 32px 8px;
+  background: #1E1E20;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  z-index: 1;
+  overflow: hidden;
+}
+#about_me .languages-skills .web-skills .items .item:hover:before, #about_me .languages-skills .web-skills .items .item:hover:after {
+  transform: translate(0, 0);
+}
+#about_me .languages-skills .web-skills .items .item:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #0b2c80;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  z-index: -1;
+  transform: translate(100%, -100%);
+  transition: all 0.6s;
+}
+#about_me .languages-skills .web-skills .items .item:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #0b2c80;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  z-index: -1;
+  transform: translate(-100%, 100%);
+  transition: all 0.6s;
+}
+#about_me .languages-skills .web-skills .items .item img {
+  margin-bottom: 21px;
+}
+#about_me .languages-skills .web-skills .items .item h3 {
+  margin-bottom: 8px;
+}
+#about_me .languages-skills .web-skills .items .item .year {
+  color: #FF9F76;
+}
+
 #contact {
   background: #000;
 }
