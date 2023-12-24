@@ -29,3 +29,26 @@ var typed = new Typed('.field h2', {
     meteor.classList='meteor';
     document.querySelector('#home .meteor-shower').append(meteor);
   }
+
+  const shuffleInstance = new Shuffle(document.querySelector('#my_work .work-items'), {
+    itemSelector: '.item'
+  });
+
+  const filterButtons = document.querySelectorAll('#my_work .filters button')
+
+  filterButtons.forEach((item) => {
+    item.addEventListener('click', workFilter)
+  })
+
+  function workFilter() {
+    const clickedButton = event.currentTarget;
+    const clickedButtonGroup = clickedButton.getAttribute('data-group');
+    const activeButton = document.querySelector('#my_work .filters button.active');
+
+    activeButton.classList.remove('active');
+    clickedButton.classList.add("active");
+
+    shuffleInstance.filter(clickedButtonGroup)
+
+    console.log(activeButton)
+  }
