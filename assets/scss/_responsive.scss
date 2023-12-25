@@ -27,6 +27,11 @@
             margin-bottom: 40px;
         }
     }
+
+    .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-Button {
+        right: 10px;
+        top: 10px;
+    }
 }
 
 @media (max-width: 767px){
@@ -142,6 +147,23 @@
         .experience{
             padding-right: 12px;
             padding-left: 12px;
+        }
+    }
+
+    .modal#workModal{
+        .modal-dialog .modal-content .modal-body{
+            img{
+                height: unset;
+            }
+
+            .left{
+                padding-right: 0;
+            }
+
+            .right{
+                padding-left: 0;
+                padding-top: 32px;
+            }
         }
     }
 }
