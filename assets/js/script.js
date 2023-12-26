@@ -98,3 +98,17 @@ var typed = new Typed('.field h2', {
   })
  })
 
+let contactFormItems = document.querySelectorAll('#contact_me .form input, #contact_me .form textarea');
+
+contactFormItems.forEach((item) => {
+  item.addEventListener('focus', function(){
+    item.parentElement.classList.add('focus')
+  })
+
+  item.addEventListener('blur', function(){
+    if(!item.value){
+      console.log("empty")
+      item.parentElement.classList.remove('focus')
+    }
+  })
+})
