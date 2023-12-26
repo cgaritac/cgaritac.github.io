@@ -50,7 +50,7 @@ var typed = new Typed('.field h2', {
 
     shuffleInstance.filter(clickedButtonGroup)
 
-    console.log(activeButton)
+    // console.log(activeButton)
   }
 
   const workModal = new bootstrap.Modal(document.getElementById('workModal'))
@@ -59,7 +59,7 @@ var typed = new Typed('.field h2', {
   //workModal.show(); // todo: must be remove
   workElements.forEach((item) => {
     item.addEventListener('click', function(){
-      console.log(item.getAttribute('data-image'))
+      // console.log(item.getAttribute('data-image'))
       document.querySelector('#workModal .modal-body img').setAttribute('src', item.getAttribute('data-image'))
       document.querySelector('#workModal .modal-body .title').innerText = item.getAttribute('data-title')
       document.querySelector('#workModal .modal-body .description').innerText = item.getAttribute('data-description')
@@ -84,4 +84,17 @@ var typed = new Typed('.field h2', {
     document.getElementById('sidebar').classList.remove('blur');
   })
 
+ let testimonialImages = document.querySelectorAll('#testimonial .images img');
+
+ testimonialImages.forEach((item, index) => {
+  let position = index + 1;
+
+  item.addEventListener('click', function(){
+    document.querySelector('#testimonial .images img.active').classList.remove('active')
+    document.querySelector(`#testimonial .images img:nth-child(${position})`).classList.add('active')
+
+    document.querySelector('#testimonial .comments .item.active').classList.remove('active')
+    document.querySelector(`#testimonial .comments .item:nth-child(${position})`).classList.add('active')
+  })
+ })
 
