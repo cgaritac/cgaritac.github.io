@@ -17,7 +17,14 @@ document.querySelector('#sidebar .toggle-sidebar').addEventListener('click', fun
     document.querySelector('#sidebar').classList.toggle('open')
 })
 
-var typed = new Typed('.field h2', {
+var typed = new Typed('.homeField h2', {
+    strings: ['Software developer', 'Front-End developer', 'Back-End developer', 'Data analyst'],
+    loop: true,
+    typeSpeed: 70,
+    backSpeed: 10,
+  });
+
+  var typed = new Typed('.aboutField h2', {
     strings: ['Software developer', 'Front-End developer', 'Back-End developer', 'Data analyst'],
     loop: true,
     typeSpeed: 70,

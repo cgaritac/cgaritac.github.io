@@ -46,7 +46,7 @@ p {
 }
 
 body {
-  background: #151516;
+  background: #051726;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -87,7 +87,7 @@ main > section header.custom::before {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #1E1E20;
+  background: #21322b;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -96,7 +96,7 @@ main > section header.custom::before {
 main > section header.custom h2 {
   display: inline-block;
   padding: 0 24px;
-  background: #151516;
+  background: #051726;
 }
 
 .btn-custom-blue, .btn-custom-dark {
@@ -105,7 +105,7 @@ main > section header.custom h2 {
   background: #262F48;
   padding: 10px 52px;
   text-decoration: none;
-  color: #658DF2;
+  color: #81FFD9;
   border-radius: 8px;
   z-index: 1;
   overflow: hidden;
@@ -117,7 +117,7 @@ main > section header.custom h2 {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: #658DF2;
+  background: #81FFD9;
   border-radius: 50%;
   opacity: 0.3;
   top: 50%;
@@ -134,7 +134,7 @@ main > section header.custom h2 {
 }
 
 .btn-custom-dark {
-  background: #1E1E20;
+  background: #21322b;
 }
 
 #sidebar {
@@ -197,7 +197,7 @@ main > section header.custom h2 {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: #658DF2;
+  background: #81FFD9;
   opacity: 0;
   top: 50%;
   left: 50%;
@@ -209,7 +209,7 @@ main > section header.custom h2 {
   transform: translate(-50%, -50%) scale(1);
 }
 #sidebar nav ul li a.active i {
-  color: #658DF2;
+  color: #81FFD9;
 }
 #sidebar nav ul li a span {
   display: none;
@@ -225,7 +225,7 @@ main > section header.custom h2 {
   top: -8px;
   left: 20px;
   padding: 7px 13px;
-  background: rgba(30, 30, 32, 0.75);
+  background: rgba(33, 50, 43, 0.75);
   border-radius: 6px;
   opacity: 0;
   transition: all 0.3s;
@@ -239,14 +239,14 @@ main > section header.custom h2 {
 #sidebar .toggle-mode .outer {
   width: 24px;
   height: 35px;
-  background: #1E1E20;
+  background: #21322b;
   border-radius: 24px;
 }
 #sidebar .toggle-mode .outer .inner {
   position: relative;
   width: 14px;
   height: 14px;
-  background: #658DF2;
+  background: #81FFD9;
   border-radius: 50%;
   margin-right: auto;
   margin-left: auto;
@@ -257,7 +257,7 @@ main > section header.custom h2 {
   content: "";
   width: 14px;
   height: 14px;
-  background: #1E1E20;
+  background: #21322b;
   top: -4px;
   left: 3px;
   border-radius: 50%;
@@ -280,16 +280,16 @@ main > section header.custom h2 {
 #home .info h1 span {
   color: #B6B7BA;
 }
-#home .info .field {
+#home .info .homeField {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
 }
-#home .info .field h2 {
-  color: #B6B7BA;
+#home .info .homeField h2 {
+  color: #81FFD9;
   margin: 0;
 }
-#home .info .field span {
+#home .info .homeField span {
   font-size: 21px;
   margin-left: 2px;
 }
@@ -318,7 +318,7 @@ main > section header.custom h2 {
   transition: all 0.3s;
 }
 #home .info .socials ul li a:hover {
-  background: #1E1E20;
+  background: #21322b;
   border-radius: 6px;
 }
 #home .info .socials ul li a:hover span, #home .info .socials ul li a:hover i {
@@ -363,10 +363,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 64vh;
-  left: 38vw;
-  animation: meteor 4999ms linear infinite;
-  animation-delay: 1499ms;
+  top: 4vh;
+  left: 23vw;
+  animation: meteor 7186ms linear infinite;
+  animation-delay: 3993ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -374,10 +374,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 67vh;
-  left: 76vw;
-  animation: meteor 4718ms linear infinite;
-  animation-delay: 1007ms;
+  top: 57vh;
+  left: 33vw;
+  animation: meteor 5174ms linear infinite;
+  animation-delay: 1307ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -385,10 +385,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 56vh;
-  left: 38vw;
-  animation: meteor 7549ms linear infinite;
-  animation-delay: 180ms;
+  top: 66vh;
+  left: 72vw;
+  animation: meteor 7856ms linear infinite;
+  animation-delay: 277ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -396,10 +396,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 43vh;
-  left: 77vw;
-  animation: meteor 7397ms linear infinite;
-  animation-delay: 1937ms;
+  top: 13vh;
+  left: 61vw;
+  animation: meteor 3652ms linear infinite;
+  animation-delay: 3719ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -407,10 +407,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 78vh;
-  left: 7vw;
-  animation: meteor 4946ms linear infinite;
-  animation-delay: 31ms;
+  top: 72vh;
+  left: 38vw;
+  animation: meteor 5442ms linear infinite;
+  animation-delay: 3879ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -418,10 +418,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 35vh;
-  left: 20vw;
-  animation: meteor 3102ms linear infinite;
-  animation-delay: 3255ms;
+  top: 20vh;
+  left: 49vw;
+  animation: meteor 4607ms linear infinite;
+  animation-delay: 3643ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -429,10 +429,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 72vh;
-  left: 23vw;
-  animation: meteor 5974ms linear infinite;
-  animation-delay: 784ms;
+  top: 58vh;
+  left: 71vw;
+  animation: meteor 5739ms linear infinite;
+  animation-delay: 3942ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -440,10 +440,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 36vh;
-  left: 45vw;
-  animation: meteor 5834ms linear infinite;
-  animation-delay: 4280ms;
+  top: 2vh;
+  left: 5vw;
+  animation: meteor 3344ms linear infinite;
+  animation-delay: 1647ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -451,10 +451,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 52vh;
-  left: 17vw;
-  animation: meteor 7313ms linear infinite;
-  animation-delay: 1735ms;
+  top: 54vh;
+  left: 26vw;
+  animation: meteor 7036ms linear infinite;
+  animation-delay: 136ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -462,10 +462,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 9vh;
-  left: 28vw;
-  animation: meteor 4034ms linear infinite;
-  animation-delay: 1057ms;
+  top: 78vh;
+  left: 40vw;
+  animation: meteor 4765ms linear infinite;
+  animation-delay: 2733ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -473,10 +473,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 29vh;
-  left: 46vw;
-  animation: meteor 4304ms linear infinite;
-  animation-delay: 3011ms;
+  top: 4vh;
+  left: 49vw;
+  animation: meteor 5125ms linear infinite;
+  animation-delay: 3919ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -484,10 +484,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 11vh;
-  left: 44vw;
-  animation: meteor 3970ms linear infinite;
-  animation-delay: 369ms;
+  top: 42vh;
+  left: 16vw;
+  animation: meteor 4556ms linear infinite;
+  animation-delay: 1470ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -495,10 +495,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 70vh;
-  left: 48vw;
-  animation: meteor 7561ms linear infinite;
-  animation-delay: 99ms;
+  top: 30vh;
+  left: 10vw;
+  animation: meteor 5587ms linear infinite;
+  animation-delay: 3312ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -506,10 +506,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 60vh;
-  left: 63vw;
-  animation: meteor 5571ms linear infinite;
-  animation-delay: 778ms;
+  top: 1vh;
+  left: 74vw;
+  animation: meteor 5998ms linear infinite;
+  animation-delay: 4781ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -517,10 +517,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 24vh;
-  left: 31vw;
-  animation: meteor 5153ms linear infinite;
-  animation-delay: 1471ms;
+  top: 23vh;
+  left: 39vw;
+  animation: meteor 4506ms linear infinite;
+  animation-delay: 4223ms;
 }
 @keyframes meteor {
   0% {
@@ -542,11 +542,21 @@ main > section header.custom h2 {
   filter: saturate(200%) sepia(1);
 }
 #about_me .hero .info header {
-  margin-bottom: 42px;
+  margin-bottom: 55px;
   margin-top: 10px;
 }
-#about_me .hero .info h2 {
-  color: #B6B7BA;
+#about_me .hero .info .aboutField {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+#about_me .hero .info .aboutField h2 {
+  color: #81FFD9;
+  margin: 0;
+}
+#about_me .hero .info .aboutField span {
+  font-size: 21px;
+  margin-left: 2px;
 }
 #about_me .hero .info p {
   max-width: 560px;
@@ -589,7 +599,7 @@ main > section header.custom h2 {
   width: 15px;
   height: 15px;
   border-radius: 4px;
-  background: #1E1E20;
+  background: #21322b;
   transform: rotate(40deg);
 }
 #about_me .rate span:after {
@@ -598,11 +608,11 @@ main > section header.custom h2 {
   width: 15px;
   height: 15px;
   border-radius: 4px;
-  background: #1E1E20;
+  background: #21322b;
   transform: rotate(50deg);
 }
 #about_me .rate span.fill:before, #about_me .rate span.fill:after {
-  background: #658DF2;
+  background: #81FFD9;
 }
 #about_me .languages-skills {
   margin-top: 126px;
@@ -643,7 +653,7 @@ main > section header.custom h2 {
   position: relative;
   text-align: center;
   padding: 32px 8px;
-  background: #1E1E20;
+  background: #21322b;
   margin-bottom: 16px;
   border-radius: 8px;
   z-index: 1;
@@ -657,7 +667,7 @@ main > section header.custom h2 {
   content: "";
   width: 100%;
   height: 100%;
-  background: #0b2c80;
+  background: #00b47e;
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -670,7 +680,7 @@ main > section header.custom h2 {
   content: "";
   width: 100%;
   height: 100%;
-  background: #0b2c80;
+  background: #00b47e;
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -716,17 +726,17 @@ main > section header.custom h2 {
 }
 #my_resume .items .item.last .icon i,
 #my_resume .items .item.last .box .title {
-  color: #658DF2;
+  color: #44EF58;
 }
 #my_resume .items .item:hover .icon,
 #my_resume .items .item:hover .icon:before {
-  background: rgba(11, 44, 128, 0.4);
+  background: rgba(0, 180, 126, 0.4);
 }
 #my_resume .items .item:hover .box {
   background: transparent;
 }
 #my_resume .items .item:hover .box::before {
-  border-right-color: rgba(11, 44, 128, 0.4);
+  border-right-color: rgba(0, 180, 126, 0.4);
 }
 #my_resume .items .item:hover .box:after {
   width: 100%;
@@ -750,14 +760,14 @@ main > section header.custom h2 {
   position: absolute;
   width: 1px;
   height: 126px;
-  background: #1E1E20;
+  background: #21322b;
   top: 82px;
   transition: all 0.3s;
 }
 #my_resume .items .item .box {
   position: relative;
   padding: 32px;
-  background-color: rgba(30, 30, 32, 0.75);
+  background-color: rgba(33, 50, 43, 0.75);
   border-radius: 8px;
   text-align: left;
   z-index: 1;
@@ -767,7 +777,7 @@ main > section header.custom h2 {
 #my_resume .items .item .box:before {
   content: "";
   position: absolute;
-  border-right: 9px solid rgba(30, 30, 32, 0.75);
+  border-right: 9px solid rgba(33, 50, 43, 0.75);
   border-top: 9px solid transparent;
   border-bottom: 9px solid transparent;
   left: -9px;
@@ -781,7 +791,7 @@ main > section header.custom h2 {
   left: 0;
   top: 0;
   border-radius: 8px;
-  background: rgba(11, 44, 128, 0.4);
+  background: rgba(0, 180, 126, 0.4);
   z-index: -1;
   transition: all 0.3s;
 }
@@ -826,7 +836,7 @@ main > section header.custom h2 {
 }
 #my_work .filters button.active {
   color: #fff;
-  background: #1E1E20;
+  background: #21322b;
   border-radius: 8px;
 }
 #my_work .work-items .item {
@@ -847,7 +857,7 @@ main > section header.custom h2 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(101, 141, 242, 0.6);
+  background: rgba(129, 255, 217, 0.6);
   border-radius: 8px;
   z-index: 1;
   cursor: pointer;
@@ -860,7 +870,7 @@ main > section header.custom h2 {
   position: absolute;
   width: 96%;
   height: 95%;
-  background: rgba(21, 21, 22, 0.8);
+  background: rgba(5, 23, 38, 0.8);
   border-radius: 8px;
   transform-origin: bottom left;
   top: 50%;
@@ -886,7 +896,7 @@ main > section header.custom h2 {
   max-width: 863px;
 }
 .modal#workModal .modal-dialog .modal-content {
-  background: #1E1E20;
+  background: #21322b;
   padding: 32px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body {
@@ -897,7 +907,7 @@ main > section header.custom h2 {
   position: absolute;
   right: -23px;
   top: -23px;
-  background: #151516;
+  background: #051726;
   font-size: 22px;
   width: 46px;
   height: 46px;
@@ -906,7 +916,7 @@ main > section header.custom h2 {
   transition: all 0.3s;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-Button:hover {
-  background: #0b2c80;
+  background: #00b47e;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body img {
   width: 100%;
@@ -943,7 +953,7 @@ main > section header.custom h2 {
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
-  color: #658DF2;
+  color: #81FFD9;
   text-decoration: none;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a:hover {
@@ -995,14 +1005,14 @@ main > section header.custom h2 {
 }
 #testimonial .main-section .comments .item.active .box {
   position: relative;
-  background: rgba(30, 30, 32, 0.75);
+  background: rgba(33, 50, 43, 0.75);
   padding: 32px;
   border-radius: 8px;
 }
 #testimonial .main-section .comments .item.active .box::before {
   content: "";
   position: absolute;
-  border-bottom: 9px solid rgba(30, 30, 32, 0.75);
+  border-bottom: 9px solid rgba(33, 50, 43, 0.75);
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   top: -9px;
@@ -1019,7 +1029,7 @@ main > section header.custom h2 {
 }
 #testimonial .main-section .comments .item.active .box p span {
   font-size: 86px;
-  color: #658DF2;
+  color: #81FFD9;
   line-height: 0;
   vertical-align: -33px;
 }
@@ -1109,7 +1119,7 @@ main > section header.custom h2 {
   margin-bottom: 32px;
 }
 #contact_me .container .info .item:hover i {
-  background: #658DF2;
+  background: #81FFD9;
 }
 #contact_me .container .info .item i {
   display: flex;
@@ -1240,7 +1250,7 @@ main > section header.custom h2 {
     left: -23px;
     z-index: 2;
     margin-top: 0;
-    background: rgba(30, 30, 32, 0.75);
+    background: rgba(33, 50, 43, 0.75);
   }
   #my_resume .items .item .icon::before {
     display: none;
