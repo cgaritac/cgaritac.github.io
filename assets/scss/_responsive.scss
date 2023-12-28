@@ -136,6 +136,18 @@
                 } 
             }
         }
+
+        .certificates{
+            .items{
+                .item{
+                    img{
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
     }
 
     #my_resume{
