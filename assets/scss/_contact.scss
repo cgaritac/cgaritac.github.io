@@ -72,6 +72,10 @@
         .info{
             padding-left: 69px;
 
+            a{
+                text-decoration: none;
+            }
+            
             .item{
                 display: flex;
                 
@@ -93,7 +97,7 @@
                     height: 46px;
                     background: rgba(#fff, 0.05);
                     border-radius: 50%;
-                    font-size: 18px;
+                    font-size: 25px;
                     margin-right: 16px;
                     transition: all 0.3s;
                 }
