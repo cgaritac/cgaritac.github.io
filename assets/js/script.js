@@ -17,6 +17,18 @@ document.querySelector('#sidebar .toggle-sidebar').addEventListener('click', fun
     document.querySelector('#sidebar').classList.toggle('open')
 })
 
+document.addEventListener('click', function(event) {
+  if (!event.target.closest('#sidebar') && document.querySelector('#sidebar').classList.contains('open')) {
+      document.querySelector('#sidebar').classList.remove('open');
+  }
+});
+
+window.addEventListener('popstate', function() {
+  if (document.querySelector('#sidebar').classList.contains('open')) {
+      document.querySelector('#sidebar').classList.remove('open');
+  }
+});
+
 var typed = new Typed('.homeField h2', {
     strings: ['Software developer', 'Front-End developer', 'Back-End developer', 'Data analyst'],
     loop: true,
