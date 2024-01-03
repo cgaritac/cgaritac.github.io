@@ -131,3 +131,29 @@ contactFormItems.forEach((item) => {
     }
   })
 })
+
+function toggleMode(){
+  let theme = document.querySelector('html').getAttribute('theme');
+
+  if(theme == "dark"){
+    theme = "light";
+    playAudio('./assets/audio/light.mp3', 2000);
+    //new Audio('./assets/audio/light.mp3').play()
+  }else{
+    theme = "dark";
+    playAudio('./assets/audio/dark.wav', 2000);
+    //new Audio('./assets/audio/dark.wav').play()
+  }
+
+  function playAudio(audioPath, duration) {
+    const audio = new Audio(audioPath);
+    audio.play();
+    setTimeout(() => {
+      audio.pause();
+      audio.currentTime = 0; 
+    }, duration);
+  }
+
+  document.querySelector('html').setAttribute("theme", theme)
+
+}

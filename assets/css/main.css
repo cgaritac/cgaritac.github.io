@@ -48,10 +48,15 @@ p {
 body {
   background: #051726;
   font-family: "Ubuntu", sans-serif;
+  transition: background 0.5s;
 }
 
 * {
   color: #fff;
+}
+
+html {
+  --bg-shape: url("../images/bg_shape.png") ;
 }
 
 main {
@@ -76,6 +81,9 @@ main > section header.has-bg img {
   position: absolute;
   top: 15px;
   left: -72px;
+}
+main > section header.has-bg img[src="assets/images/h1-bg-light.png"] {
+  display: none;
 }
 main > section header.custom {
   position: relative;
@@ -241,6 +249,8 @@ main > section header.custom h2 {
   height: 35px;
   background: #21322b;
   border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 #sidebar .toggle-mode .outer .inner {
   position: relative;
@@ -251,6 +261,7 @@ main > section header.custom h2 {
   margin-right: auto;
   margin-left: auto;
   margin-top: 16px;
+  transition: all 0.3s;
 }
 #sidebar .toggle-mode .outer .inner:before {
   position: absolute;
@@ -264,7 +275,7 @@ main > section header.custom h2 {
 }
 
 #home {
-  background-image: url("../images/bg_shape.png");
+  background-image: var(--bg-shape);
   background-repeat: no-repeat;
   background-position: 40vw -24px;
 }
@@ -363,10 +374,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 17vh;
-  left: 48vw;
-  animation: meteor 3983ms linear infinite;
-  animation-delay: 585ms;
+  top: 69vh;
+  left: 33vw;
+  animation: meteor 5685ms linear infinite;
+  animation-delay: 3125ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -374,10 +385,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 65vh;
-  left: 29vw;
-  animation: meteor 5304ms linear infinite;
-  animation-delay: 782ms;
+  top: 63vh;
+  left: 48vw;
+  animation: meteor 3219ms linear infinite;
+  animation-delay: 4099ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -385,10 +396,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 19vh;
-  left: 50vw;
-  animation: meteor 6494ms linear infinite;
-  animation-delay: 1835ms;
+  top: 35vh;
+  left: 73vw;
+  animation: meteor 6370ms linear infinite;
+  animation-delay: 3432ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -396,10 +407,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 46vh;
-  left: 25vw;
-  animation: meteor 5778ms linear infinite;
-  animation-delay: 1560ms;
+  top: 79vh;
+  left: 72vw;
+  animation: meteor 6813ms linear infinite;
+  animation-delay: 1373ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -407,10 +418,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 51vh;
-  left: 32vw;
-  animation: meteor 4397ms linear infinite;
-  animation-delay: 2174ms;
+  top: 65vh;
+  left: 19vw;
+  animation: meteor 3955ms linear infinite;
+  animation-delay: 2882ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -418,10 +429,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 44vh;
-  left: 49vw;
-  animation: meteor 6186ms linear infinite;
-  animation-delay: 1262ms;
+  top: 13vh;
+  left: 38vw;
+  animation: meteor 4668ms linear infinite;
+  animation-delay: 4895ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -429,10 +440,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 54vh;
-  left: 51vw;
-  animation: meteor 6128ms linear infinite;
-  animation-delay: 1741ms;
+  top: 28vh;
+  left: 13vw;
+  animation: meteor 7444ms linear infinite;
+  animation-delay: 498ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -440,10 +451,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 12vh;
-  left: 44vw;
-  animation: meteor 4463ms linear infinite;
-  animation-delay: 4594ms;
+  top: 2vh;
+  left: 17vw;
+  animation: meteor 6732ms linear infinite;
+  animation-delay: 2846ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -451,10 +462,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 11vh;
-  left: 7vw;
-  animation: meteor 7949ms linear infinite;
-  animation-delay: 701ms;
+  top: 32vh;
+  left: 59vw;
+  animation: meteor 5466ms linear infinite;
+  animation-delay: 3573ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -462,10 +473,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 78vh;
-  left: 12vw;
-  animation: meteor 7517ms linear infinite;
-  animation-delay: 3602ms;
+  top: 52vh;
+  left: 26vw;
+  animation: meteor 5042ms linear infinite;
+  animation-delay: 216ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -473,10 +484,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 8vh;
-  left: 50vw;
-  animation: meteor 7289ms linear infinite;
-  animation-delay: 1912ms;
+  top: 68vh;
+  left: 62vw;
+  animation: meteor 5985ms linear infinite;
+  animation-delay: 3004ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -484,10 +495,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 80vh;
-  left: 52vw;
-  animation: meteor 5278ms linear infinite;
-  animation-delay: 1177ms;
+  top: 54vh;
+  left: 36vw;
+  animation: meteor 7687ms linear infinite;
+  animation-delay: 2533ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -495,10 +506,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 43vh;
-  left: 23vw;
-  animation: meteor 5101ms linear infinite;
-  animation-delay: 2368ms;
+  top: 56vh;
+  left: 12vw;
+  animation: meteor 3574ms linear infinite;
+  animation-delay: 2616ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -506,10 +517,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 8vh;
-  left: 79vw;
-  animation: meteor 4808ms linear infinite;
-  animation-delay: 3710ms;
+  top: 28vh;
+  left: 16vw;
+  animation: meteor 4317ms linear infinite;
+  animation-delay: 195ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -517,10 +528,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 54vh;
-  left: 35vw;
-  animation: meteor 4567ms linear infinite;
-  animation-delay: 2093ms;
+  top: 27vh;
+  left: 36vw;
+  animation: meteor 4673ms linear infinite;
+  animation-delay: 838ms;
 }
 @keyframes meteor {
   0% {
@@ -714,7 +725,7 @@ main > section header.custom h2 {
 
 #my_resume {
   padding-bottom: 115px;
-  background-image: url(../images/bg_shape.png);
+  background-image: var(--bg-shape);
   background-repeat: no-repeat;
   background-position: 40vw 374px;
 }
@@ -770,6 +781,7 @@ main > section header.custom h2 {
 #my_resume .items .item .box {
   position: relative;
   padding: 32px;
+  max-width: 450px;
   background-color: rgba(33, 50, 43, 0.75);
   border-radius: 8px;
   text-align: left;
@@ -964,7 +976,7 @@ main > section header.custom h2 {
 }
 
 #testimonial {
-  background-image: url(../images/bg_shape.png);
+  background-image: var(--bg-shape);
   background-repeat: no-repeat;
   background-position: 60vw 374px;
   min-height: 100vh;
@@ -1059,7 +1071,7 @@ main > section header.custom h2 {
   }
 }
 #contact_me {
-  background-image: url(../images/bg_shape.png);
+  background-image: var(--bg-shape);
   background-repeat: no-repeat;
   background-position: 53vw 574px;
   min-height: 100vh;
@@ -1298,5 +1310,222 @@ main > section header.custom h2 {
   }
   #contact_me .container .info .item br {
     display: none;
+  }
+}
+html[theme=light] {
+  --bg-shape: url("../images/bg-shape-light.png");
+}
+html[theme=light] body {
+  background: white;
+}
+html[theme=light] * {
+  color: #0D0D0D;
+}
+html[theme=light] .btn-custom-blue, html[theme=light] .btn-custom-dark {
+  background: #00b47e;
+  opacity: 85%;
+  color: white;
+}
+html[theme=light] .btn-custom-dark {
+  background: hsl(105, 17%, 56%);
+  opacity: 85%;
+  color: white;
+}
+html[theme=light] main > section header.has-bg img[src="assets/images/h1-bg-light.png"] {
+  display: block;
+}
+html[theme=light] main > section header.has-bg img[src="assets/images/h1-bg.png"] {
+  display: none;
+}
+html[theme=light] main > section header.custom:before {
+  background: #f4f4f4;
+}
+html[theme=light] main > section header.custom h2 {
+  background: white;
+}
+html[theme=light] #sidebar .logo img {
+  filter: invert(0.8);
+}
+html[theme=light] #sidebar nav ul li a:hover i {
+  color: #0D0D0D;
+}
+html[theme=light] #sidebar nav ul li a i {
+  color: #83848E;
+}
+html[theme=light] #sidebar nav ul li a:before {
+  background: #743183;
+}
+html[theme=light] #sidebar nav ul li > span {
+  background: #f4f4f4;
+}
+html[theme=light] #sidebar .toggle-mode .outer {
+  background: #f4f4f4;
+}
+html[theme=light] #sidebar .toggle-mode .outer .inner {
+  margin-top: 5px;
+  background: #743183;
+}
+html[theme=light] #sidebar .toggle-mode .outer .inner:before {
+  background: #f4f4f4;
+  opacity: 0;
+}
+html[theme=light] #home .info h1 span {
+  color: #83848E;
+}
+html[theme=light] #home .info .homeField h2 {
+  color: #743183;
+}
+html[theme=light] #home .info .socials ul li a:hover {
+  background: #f4f4f4;
+  color: #0D0D0D;
+}
+html[theme=light] #home .info .socials ul li a:hover i, html[theme=light] #home .info .socials ul li a:hover span {
+  color: #0D0D0D;
+}
+html[theme=light] #home .info .socials ul li a i, html[theme=light] #home .info .socials ul li a span {
+  color: #83848E;
+}
+html[theme=light] #about_me .rate span:not(.fill):after, html[theme=light] #about_me .rate span:not(.fill):before {
+  background: #83848E;
+  opacity: 0.2;
+}
+html[theme=light] #about_me .rate span:is(.fill):after, html[theme=light] #about_me .rate span:is(.fill):before {
+  background: #00b47e;
+  opacity: 0.7;
+}
+html[theme=light] #about_me .hero .info h2 {
+  color: #743183;
+}
+html[theme=light] #about_me .hero .info p {
+  color: #0D0D0D;
+}
+html[theme=light] #about_me .hero .info .items .item .value {
+  color: #83848E;
+}
+html[theme=light] #about_me .languages-skills .languages-key-skills .languages .items .item .info .level {
+  color: #83848E;
+}
+html[theme=light] #about_me .languages-skills .web-skills .items .item {
+  background: #f4f4f4;
+}
+html[theme=light] #about_me .languages-skills .web-skills .items .item:after, html[theme=light] #about_me .languages-skills .web-skills .items .item:before {
+  background: #00e7a1;
+}
+html[theme=light] #about_me .languages-skills .web-skills .items .item .year {
+  color: #83848E;
+}
+html[theme=light] #my_resume .items .item.last .icon i,
+html[theme=light] #my_resume .items .item.last .box .title {
+  color: #743183;
+}
+html[theme=light] #my_resume .items .item:hover .icon {
+  background: #81FFD9;
+}
+html[theme=light] #my_resume .items .item:hover .icon:before {
+  background: #81FFD9;
+}
+html[theme=light] #my_resume .items .item:hover .box:before {
+  border-right-color: #81FFD9;
+}
+html[theme=light] #my_resume .items .item:hover .box:after {
+  background: #81FFD9;
+}
+html[theme=light] #my_resume .items .item .icon {
+  background: #f4f4f4;
+}
+html[theme=light] #my_resume .items .item .icon:before {
+  background: #f3f3f3;
+}
+html[theme=light] #my_resume .items .item .box {
+  background: rgba(244, 244, 244, 0.8);
+}
+html[theme=light] #my_resume .items .item .box:before {
+  border-right-color: rgba(244, 244, 244, 0.8);
+}
+html[theme=light] #my_resume .items .item .box p {
+  color: #83848E;
+}
+html[theme=light] #my_work .filters button.active {
+  background: #f4f4f4;
+}
+html[theme=light] #my_work .filters button.active h4 {
+  color: #723081;
+}
+html[theme=light] #my_work .filters button h4 {
+  color: #83848E;
+}
+html[theme=light] #my_work .work-items .item .wrap:after {
+  background: rgba(255, 255, 255, 0.65);
+}
+html[theme=light] #my_work .work-items .item .wrap img {
+  filter: brightness(0.75);
+}
+html[theme=light] .modal#workModal .modal-dialog .modal-content {
+  background: #fff;
+}
+html[theme=light] .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-Button {
+  background: #f4f4f4;
+}
+html[theme=light] .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-Button:hover {
+  background: #81FFD9;
+}
+html[theme=light] .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-Button:hover i {
+  color: #fff;
+}
+html[theme=light] .modal#workModal .modal-dialog .modal-content .modal-body .left p {
+  color: #83848E;
+}
+html[theme=light] .modal#workModal .modal-dialog .modal-content .modal-body .right .value {
+  color: #83848E;
+}
+html[theme=light] .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i,
+html[theme=light] .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a {
+  color: #743183;
+}
+html[theme=light] #testimonial .main-section .comments .item .box {
+  background: rgba(244, 244, 244, 0.8);
+}
+html[theme=light] #testimonial .main-section .comments .item .box:before {
+  border-bottom-color: rgba(244, 244, 244, 0.8);
+}
+html[theme=light] #testimonial .main-section .comments .item .box p span {
+  color: #743183;
+}
+html[theme=light] #testimonial .writer span.field {
+  color: #83848E !important;
+}
+html[theme=light] #contact_me .container .form .form-item:before {
+  background: #f4f4f4;
+}
+html[theme=light] #contact_me .container .form .form-item:after {
+  background: #81FFD9;
+}
+html[theme=light] #contact_me .container .form .form-item label {
+  color: #83848E;
+}
+html[theme=light] #contact_me .container .info .item:hover i {
+  background: #81FFD9;
+  color: #fff;
+}
+html[theme=light] #contact_me .container .info .item i {
+  background: #f4f4f4;
+  color: #743183;
+}
+html[theme=light] #contact_me .container .info .item .text .title {
+  color: #83848E;
+}
+html[theme=light] #contact_me .container .info .item .text a {
+  color: #0D0D0D;
+}
+
+@media (max-width: 767px) {
+  html[theme=light] #sidebar {
+    background: #e8fdeb;
+  }
+  html[theme=light] #sidebar .toggle-sidebar {
+    background: #e8fdeb;
+  }
+  html[theme=light] #sidebar .toggle-mode .outer {
+    background: #fff;
   }
 }/*# sourceMappingURL=main.css.map */

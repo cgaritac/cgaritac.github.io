@@ -1,0 +1,357 @@
+html[theme="light"]{
+    --bg-shape: url('../images/bg-shape-light.png');
+
+    body{
+        background: #ffff;
+    }
+
+    *{
+        color: $paragraph_light;
+    }
+
+    .btn-custom-blue{
+        background: darken($primary, 40%);
+        opacity: 85%;
+        color: #ffff
+    }
+
+    .btn-custom-dark{
+        background: $icon_light_secondary;
+        opacity: 85%;
+        color: #ffff
+    }
+
+    main > section {
+        header.has-bg img {
+             &[src="assets/images/h1-bg-light.png"]{
+                display: block; 
+             }
+
+             &[src="assets/images/h1-bg.png"]{
+                display: none; 
+             }
+        }
+
+        header.custom {
+            &:before{
+                background: $secondary_gray_light;
+            }
+
+            h2{
+                background: #ffff;
+            }
+        }
+    }
+
+    #sidebar{
+        .logo img{
+            filter: invert(0.8);
+        }
+
+        nav ul li {
+            a {
+                &:hover i{
+                    color: $paragraph_light;
+                }
+
+                i{
+                    color: $gray_light;
+                }
+
+                &:before{
+                    background: $primary_light;
+                }
+            }
+
+            > span{
+                background: $secondary_gray_light;
+            }
+        }
+
+        .toggle-mode .outer{
+            background: $secondary_gray_light;
+
+            .inner{
+                margin-top: 5px;
+                background: $primary_light;
+
+                &:before{
+                    background: $secondary_gray_light;
+                    opacity: 0;
+                }
+            }
+        }
+    }
+    #home{
+        .info {
+            h1 span{
+                color: $gray_light;
+            }
+
+            .homeField h2{
+                color: $primary_light;
+            }
+
+            .socials ul li a {
+                &:hover{
+                    background: $secondary_gray_light;
+                    color: $paragraph_light;
+
+                    i, span{
+                        color: $paragraph_light;
+                    }
+                }
+
+                i, span{
+                    color: $gray_light;
+                }
+            }
+        }
+    }
+
+    #about_me {
+        .rate span:not(.fill){
+            &:after,
+            &:before{
+                background: $gray_light;
+                opacity: 0.2;
+            }
+        }
+
+        .rate span:is(.fill){
+            &:after,
+            &:before{
+                //background: $primary_light;
+                background: darken($primary, 40%);
+                opacity: 0.7;
+            }
+        }
+
+        .hero .info {
+            h2 {
+                color: $primary_light;
+            }
+
+            p{
+                color: $paragraph_light;
+            }
+
+            .items .item .value{
+                color: $gray_light;
+            }
+        }
+
+        .languages-skills .languages-key-skills .languages .items .item .info .level{
+            color: $gray_light
+        }
+
+        .languages-skills .web-skills .items .item{
+            background: $secondary_gray_light;
+
+            &:after,
+            &:before{
+               background: darken($primary, 30%);
+            }
+
+            .year{
+                color: $gray_light;
+            }
+        }
+    }
+
+    #my_resume{
+        .items .item {
+            &.last{
+                .icon i,
+                .box .title{
+                    color: $primary_light;
+                }
+            }
+
+            &:hover{
+                .icon{
+                    background: $primary;
+
+                    &:before{
+                        background: $primary;
+                    }
+                }
+
+                .box{
+                    &:before{
+                        border-right-color: $primary;
+                    }
+
+                    &:after{
+                        background: $primary;
+                    }
+                }
+            }
+
+            .icon{
+                background: $secondary_gray_light;
+
+                &:before{
+                    background: darken($secondary_gray_light, 0.4);
+                }
+            }
+
+            .box{
+                background: rgba($secondary_gray_light, 0.8);
+
+                &:before{
+                    border-right-color: rgba($secondary_gray_light, 0.8);
+                }
+
+                p{
+                    color: $gray_light;
+                }
+            }
+        }
+    }
+
+    #my_work{
+        .filters{
+            button{
+                &.active{
+                    background: $secondary_gray_light;
+
+                    h4{
+                        color: darken($primary_light, 0.6);
+                    }
+                }
+                h4{
+                    color: $gray_light;
+                }
+            }
+        }
+
+        .work-items .item .wrap{
+            &:after{
+                background: rgba(#fff, 0.65);
+            }
+
+            img{
+                filter: brightness(0.75);
+            }
+        }
+    }
+
+    .modal#workModal{
+        .modal-dialog .modal-content{
+            background: #fff;
+
+            .modal-body {
+                .modal-close-Button{
+                    background: $secondary_gray_light;
+
+                    &:hover{
+                        background: $primary;
+
+                        i{
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .left p{
+                    color: $gray_light;
+
+                }
+
+                .right .value{
+                    color: $gray_light;
+
+                }
+
+                .right .project-link {
+                    i,
+                    a{
+                        color: $primary_light;
+                    }
+                }
+            }
+        }
+    }
+
+    #testimonial {
+        .main-section .comments .item .box {
+            background: rgba($secondary_gray_light, 0.8);
+
+            &:before{
+                border-bottom-color: rgba($secondary_gray_light, 0.8);
+            }
+
+            p span{
+                color: $primary_light;
+            }
+        }
+
+        .writer span.field{
+            color: $gray_light !important;
+        }
+    }
+
+    #contact_me{
+        .container {
+            .form{
+                .form-item{
+                    &:before{
+                        background: $secondary_gray_light;
+                    }
+    
+                    &:after{
+                        background: $primary;
+                    }
+    
+                    label{
+                        color: $gray_light;
+                    }
+                }
+            }
+
+            .info{
+                .item{
+                    &:hover{
+                        i{
+                            background: $primary;
+                            color: #fff
+                        }
+                    }
+
+                    i{
+                        background: $secondary_gray_light;
+                        color: $primary_light
+                    }
+
+                    .text {
+                        .title{
+                            color: $gray_light;
+                        }
+
+                        a{
+                            color: $paragraph_light;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    html[theme="light"]{
+        #sidebar{
+            background: lighten($icon, 35%);
+
+            .toggle-sidebar{
+                background: lighten($icon, 35%);
+            }
+
+            .toggle-mode .outer{
+                background: #fff;
+            }
+        }
+    }
+}

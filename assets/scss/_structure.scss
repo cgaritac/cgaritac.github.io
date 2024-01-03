@@ -21,7 +21,11 @@ main{
             img{
                 position: absolute;
                 top: 15px;
-                left: -72px;                
+                left: -72px;      
+                
+                &[src="assets/images/h1-bg-light.png"]{
+                   display: none; 
+                }
             }
         }
 
